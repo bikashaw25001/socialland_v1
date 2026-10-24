@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type FormEvent, type ReactNode } from 'react'
-import { Bell, Bookmark, Check, ChevronDown, CircleHelp, Compass, Gamepad2, Heart, Home, ImagePlus, Link2, MessageCircle, MoreHorizontal, Plus, Search, Send, Smile, Sparkles, Users, Video, Volume2, WifiOff, X } from 'lucide-react'
+import { Bell, Bookmark, Check, ChevronDown, Compass, Gamepad2, Heart, Home, ImagePlus, Link2, MessageCircle, MoreHorizontal, Plus, Search, Send, Smile, Sparkles, Users, Video, Volume2, WifiOff, X } from 'lucide-react'
 
 type Tab = 'Home' | 'Messages' | 'Explore' | 'Games' | 'Watch party'
 type Message = { from: 'you' | 'them'; text: string; time: string }
@@ -59,7 +59,7 @@ function App() {
       <button className="profile-mini" onClick={() => setToast('Profile settings are coming soon')}><div className="avatar avatar-mint">YO</div><span><b>Your profile</b><small>Good things happen together</small></span><MoreHorizontal size={19} /></button>
     </aside>
     <main className="main-column">
-      <header className="topbar"><div className="breadcrumb"><span>Sunny side</span><span className="crumb-slash">/</span><b>{tab}</b></div><div className="topbar-actions"><label className="search-box"><Search size={16} /><input value={search} onChange={e => setSearch(e.target.value)} placeholder="Search Looply" /><kbd>⌘ K</kbd></label><button className="icon-button" aria-label="Notifications" onClick={() => setToast('You’re all caught up!')}><Bell size={19} /><i /></button><button className="help-button" aria-label="Help" onClick={() => setToast('Welcome to Looply — a little more together.') }><CircleHelp size={19} /></button></div></header>
+      <header className="topbar"><div className="breadcrumb"><span>Sunny side</span><span className="crumb-slash">/</span><b>{tab}</b></div><div className="topbar-actions"><label className="search-box"><Search size={16} /><input value={search} onChange={e => setSearch(e.target.value)} placeholder="Search Looply" /><kbd>⌘ K</kbd></label><button className="icon-button" aria-label="Notifications" onClick={() => setToast('You’re all caught up!')}><Bell size={19} /><i /></button></div></header>
       {tab === 'Home' && <HomeView posts={posts} toggleLike={toggleLike} postDraft={postDraft} setPostDraft={setPostDraft} createPost={createPost} setTab={setTab} />}
       {tab === 'Messages' && <MessagesView selected={selectedChat} setSelected={setSelectedChat} messages={activeMessages} draft={draft} setDraft={setDraft} send={sendMessage} search={search} />}
       {tab === 'Explore' && <ExploreView posts={posts} toggleLike={toggleLike} />}

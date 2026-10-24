@@ -7,4 +7,6 @@ dist/
 *credentials*.env
 atlas-credentials.env
 server/uploads/
+server/pending-uploads/
+server/model-cache/
 *.tsbuildinfo

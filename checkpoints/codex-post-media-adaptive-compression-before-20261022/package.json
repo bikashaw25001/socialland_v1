@@ -1,0 +1,38 @@
+{
+  "name": "social-land",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"node --watch server/index.js\" \"node scripts/start-vite.js\"",
+    "start": "node server/index.js",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.1.1",
+    "@vitejs/plugin-react": "latest",
+    "bcryptjs": "latest",
+    "concurrently": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-rate-limit": "latest",
+    "helmet": "latest",
+    "hls.js": "^1.7.3",
+    "jsonwebtoken": "latest",
+    "lucide-react": "latest",
+    "mongoose": "latest",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.1.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "socket.io": "latest",
+    "socket.io-client": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,21 @@
+/*
+ * Local camera filter recipes based on CSSgram by Una Kravets.
+ * Source: https://github.com/una/CSSgram
+ * License: MIT; full notice is in src/vendor/CSSGRAM-LICENSE.txt.
+ * Kept in the app bundle so live filters require no network request.
+ */
+.live-camera-filter-source[data-filter="none"] { filter: none; }
+.live-camera-filter-source[data-filter="aden"] { filter: hue-rotate(-20deg) contrast(.9) saturate(.85) brightness(1.2); }
+.live-camera-filter-source[data-filter="inkwell"] { filter: sepia(.3) contrast(1.1) brightness(1.1) grayscale(1); }
+.live-camera-filter-source[data-filter="reyes"] { filter: sepia(.22) brightness(1.1) contrast(.85) saturate(.75); }
+.live-camera-filter-source[data-filter="gingham"] { filter: brightness(1.05) hue-rotate(-10deg); }
+.live-camera-filter-source[data-filter="walden"] { filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6); }
+.live-camera-filter-source[data-filter="hudson"] { filter: brightness(1.2) contrast(.9) saturate(1.1); }
+.live-camera-filter-source[data-filter="earlybird"] { filter: contrast(.9) sepia(.2); }
+.live-camera-filter-source[data-filter="mayfair"] { filter: contrast(1.1) saturate(1.1); }
+.live-camera-filter-source[data-filter="lofi"] { filter: saturate(1.1) contrast(1.5); }
+.live-camera-filter-source[data-filter="moon"] { filter: grayscale(1) contrast(1.1) brightness(1.1); }
+.live-camera-filter-source[data-filter="clarendon"] { filter: contrast(1.2) saturate(1.35); }
+.live-camera-filter-source[data-filter="willow"] { filter: grayscale(.5) contrast(.95) brightness(.9); }
+.live-camera-filter-source[data-filter="rise"] { filter: brightness(1.05) sepia(.2) contrast(.9) saturate(.9); }
+.live-camera-filter-source[data-filter="slumber"] { filter: saturate(.66) brightness(1.05); }

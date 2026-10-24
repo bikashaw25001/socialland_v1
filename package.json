@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@huggingface/transformers": "^4.3.1",
+    "@mediapipe/tasks-vision": "1.1.1",
     "@vitejs/plugin-react": "latest",
     "bcryptjs": "latest",
     "concurrently": "latest",
@@ -17,6 +19,7 @@
     "express": "latest",
     "express-rate-limit": "latest",
     "helmet": "latest",
+    "hls.js": "^1.7.3",
     "jsonwebtoken": "latest",
     "lucide-react": "latest",
     "mongoose": "latest",
@@ -26,13 +29,11 @@
     "react-dom": "latest",
     "socket.io": "latest",
     "socket.io-client": "latest",
-    "three": "^0.186.1",
     "vite": "latest"
   },
   "devDependencies": {
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "@types/three": "^0.186.0",
     "typescript": "latest"
   }
 }

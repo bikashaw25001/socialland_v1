@@ -1,0 +1,4 @@
+Social Land back navigation checkpoint
+Created: 2026-10-24
+Source: src/AuthApp.tsx
+SHA256: AD625352806B8E023DD27C4E2E1BBE849F7C39B56B1F00B02E9A9C99D269854D

@@ -1,0 +1,10 @@
+﻿Social Land profile creature assets
+
+29 rigged animated animal, dinosaur, and bird GLB files:
+Gobkit free CC0 collection, https://gobkit.com/freebies
+License: CC0 1.0 Universal.
+
+Dragon model:
+Simple 3D Dragon Model by MattBas, https://opengameart.org/content/simple-3d-dragon-model
+License: CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/
+The dragon archive includes glax.png, required by the GLB texture reference.

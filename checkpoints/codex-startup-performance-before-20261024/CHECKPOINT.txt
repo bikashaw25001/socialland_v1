@@ -1,0 +1,5 @@
+Checkpoint: codex-startup-performance-before-20261024
+Purpose: preserve the startup implementation before initial-load optimization.
+File: src/AuthApp.tsx
+SHA256: 
+82B9E4E7089AB1F8CA33B7A8D334D052C0BB231AD8E95F654BFCF0308AA0BC99
