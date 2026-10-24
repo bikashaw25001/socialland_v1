@@ -45,3 +45,4 @@ For production, build with `npm run build`, set `NODE_ENV=production`, configure
 ## Before public launch
 
 This is a functional first milestone, not a hardened public service. Configure trusted production HTTPS, a TURN service for calls across restrictive networks, email verification, moderation and abuse reporting, message retention controls, automated backups, and production monitoring before inviting the public. Chat content is not end-to-end encrypted in this version.
+"# social-land" 
